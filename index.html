@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owl.carousel.min.css">
+  <link rel="stylesheet" href="owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="app.js"></script>
+
+
+      <script>
+        window.addEventListener("scroll", function() {
+  const navbar = document.querySelector(".header-navbar");
+  if (window.scrollY > 50) { // 50px'den fazla kaydırıldığında
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+      </script>
+
+      <div class="pchali">
+        <section class="header-navbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                  <a href="https://sandbox.elemisthemes.com/demo18.html">
+                      <img src="img/logo-dark.png" alt="">
+                  </a>
+              </div>
+              <div class="col-md-6">
+                  <ul class="navbar-nav section-navbar">
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Demos</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Services</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Services </a></li>
+                              <li><a class="dropdown-item" href="#">About</a></li>
+                              <li><a class="dropdown-item" href="#">Shop</a></li>
+                              <li><a class="dropdown-item" href="#">Contact</a></li>
+                              <li><a class="dropdown-item" href="#">Career</a></li>
+                              <li><a class="dropdown-item" href="#">Utility</a></li>
+                              <li><a class="dropdown-item" href="#">Pricing</a></li>
+                              <li><a class="dropdown-item" href="#">One Page</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                          <div class="dropdown-menu dropdown-lg">
+                              <div class="dropdown-lg-content content-wp">
+                                  <div>
+                                      <h6 class="dropdown-header">Project Pages</h6>
+                                      <ul class="list-unstyled">
+                                          <li><a class="dropdown-item" href="#">Projects I</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects II</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects III</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects IV</a></li>
+                                      </ul>
+                                  </div>
+                                  <!-- /.column -->
+                                  <div>
+                                      <h6 class="dropdown-header">Single Projects</h6>
+                                      <ul class="list-unstyled">
+                                          <li><a class="dropdown-item" href="#">Single Project I</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project II</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project III</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project IV</a></li>
+                                         
+                                      </ul>
+                                  </div>
+                                  <!-- /.column -->
+                              </div>
+                              <!-- /auto-column -->
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Blog without Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog with Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog with left Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item pe-2">
+                          <a class="nav-link" aria-current="page" href="#">Blocks</a>
+                      </li>
+                      <li class="nav-item pe-2">
+                          <a class="nav-link" aria-current="page" href="#">Documentation</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <ul class="navbar-nav flex-row align-items-center denemebars">
+                      <li class="nav-item">
+                          <nav class="nav social social-muted justify-content-end text-end customer-icon">
+                              <a href="#"><i class="bi bi-twitter custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-facebook custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-dribbble custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-instagram custom-icon"></i></a>
+                          </nav>
+                      </li>
+                     
+                  </ul>
+               
+              </div>
+          </div>
+
+
+        
+          </div>
+  </section>
+  
+
+
+
+  <section class="wrapper">
+      <div class="container wrappe-container px-0 px-md-3">
+          <div class="card image-wrappe bg-full bg-image bg-overlay mt-2 mb-5" data-image-src="img/bg22.png" style="background-image: url(&quot;img/bg22.png&quot;);">
+          <div class="row wrapper-about-deneme">
+              <div class="col-md-6">
+                  <div class="section-text">
+                      <h1>Networking <span class="gradient"> solutions</span> for worldwide communication</h1>
+                      <p class="section-p">We're a company that focuses on establishing long-term relationships with customers.</p>
+                      <a href="#" class="btn btn-lg section-a">Explore Now</a>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="section-img img-fluid">
+                      <img src="img/3d6.png" alt="">
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="about section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-text">
+                    <h2>Our Services</h2>
+                    <p>The service we offer is specifically<br>designed to meet your needs.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row gy-8 mb-17">
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                        <i class="bi bi-display bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Software &amp; Integration</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                     <i class="bi bi-shield-fill-check bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Network Security</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-cloudy-fill bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Cloud Services</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-reception-3 bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Wireless Networking</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-gear bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">IT Solutions</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-database bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Server Configuration </h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ALT KISIM-->
+
+          <div class="row mb-15 mb-md-18 align-items-center about-bottom-denk">
+            <div class="col-lg-5 offset-lg-1">
+                <img class="w-auto img-fluid about-bottom-img" src="img/3d2.png" srcset="img/3d2.png" alt="">
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+              <h2 class="go-h2 mb-3">Have Perfect Control</h2>
+              <h3 class="go-pp mb-4">We bring solutions to make life easier for our customers.</h3>
+              <p class="mb-6 about-pp">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+              <div class="row gy-3">
+                <div class="col-xl-6">
+                  <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li>
+                      <span class="about-bottom-span">Aenean quam ornare. Curabitur blandit.</span>
+                    </li>
+                    <li class="mt-3">
+                      <span class="about-bottom-span">Nullam quis risus eget urna mollis ornare.</span>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="col-xl-6">
+                  <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li>
+                      <span class="about-bottom-span">Etiam porta euismod malesuada mollis.</span>
+                    </li>
+                    <li class="mt-3">
+                      <span class="about-bottom-span">Vivamus sagittis lacus vel augue rutrum.</span>
+                    </li>
+                  </ul>
+                </div>
+               
+              </div>
+             
+            </div>
+          </div>
+
+
+
+          <div class="row about-menu-wrapper">
+            <div class="col-md-6 about-menu-text">
+              <h2 class="mb-3 go-h2">WHAT MAKES US DIFFERENT?</h2>
+              <h3 class="mb-4 go-p">We make spending stress free so you have the perfect control.</h3>
+              <p class="mb-6 about-bottom-p">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non
+                 metus auctor fringilla. Morbi leo risus, porta ac consectetur ac,
+                 vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
+            </div>
+            <div class="col-md-6 about-menu-img">
+              <img class="img-fluid" src="img/about27.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="row about1-row">
+            <div class="col-md-6 about-menu-texter">
+              <p> 
+                <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Aenean eu leo quam. Pellentesque ornare.
+              </p>
+              <p>
+                 <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Nullam quis risus eget urna mollis ornare.
+              </p>
+              <p>
+                 <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Donec id elit non mi porta gravida at eget.
+              </p>
+            </div>
+          </div>
+    </div>
+  </section>
+
+
+    <section class="wrapper-menu">
+      <div class="container-card">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" 
+        data-image-src="img/bg22.png" 
+        style="background-image: url(&quot;img/bg22.png&quot;);">
+          <div class="card-body card-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 text-center text-md-start wrapper-menu-text2">
+                  <h3 class="display-4 wrapper-menu-h3">We are proud of our works</h3>
+                  <p class="lead wrapper-menu-p">We bring solutions to make life easier for our customers.</p>
+                </div>
+                <!-- /column -->
+                <div class="col-lg-8 mt-lg-2">
+
+                  <div class="row text-center">
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256.1 256.01" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/target.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg">
+
+                      <path class="fill-secondary" d="M178.66 79.37L166 .93 91.1a76.68 76.68 0 014.91 11.52 85.77 85.77 0 0114.93-1.28h1.39a93.65 93.65 0 00-9.5-21.97zM0 128a96.1 96.1 0 00109.65 95 82.93 82.93 0 01-5.65-15.42 67 67 0 01-8 .43A80 80 0 0196 48a79 79 0 0137 9.17l11.73-11.73A94.73 94.73 0 0096 32a96.14 96.14 0 00-96 96z"></path><path class="fill-secondary" d="M37.33 128A58.78 58.78 0 0096 186.68a47.26 47.26 0 005.44-.32A82.71 82.71 0 01103 170a37.32 37.32 0 01-7 .64 42.67 42.67 0 010-85.34 32.88 32.88 0 018 .84l12.91-12.91a57 57 0 00-20.91-4A58.81 58.81 0 0037.33 128z"></path><path class="fill-secondary" d="M96 106.68A21.33 21.33 0 10117.33 128 21.39 21.39 0 0096 106.68zm0 26.66a5.33 5.33 0 115.33-5.33 5.28 5.28 0 01-5.33 5.33z"></path><path class="fill-primary" d="M96.1 136a8 8 0 01-5.67-13.65L159.76 53a8 8 0 0111.31 11.31l-69.33 69.33A8 8 0 0196.1 136z"></path><path class="fill-primary" d="M194.77 64H168.1a8 8 0 01-8-8V29.34a8.08 8.08 0 012.33-5.67l21.33-21.33A8 8 0 01197.42 8v18.68h18.68a8 8 0 015.66 13.66l-21.33 21.33a8 8 0 01-5.66 2.33zm-8 53.34a69.34 69.34 0 1069.33 69.34 69.4 69.4 0 00-69.33-69.34zm29.87 56.11L182 210.78a8 8 0 01-11.09.64l-18.67-16a8 8 0 1110.41-12.15l12.84 11 29.44-31.69a8 8 0 0111.74 10.88z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">1000+</h3>
+                      <p class="mb-0 svg-p1">Completed Projects</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256 245.34" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/bar-chart.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg deneme-svg">
+
+                      <path class="fill-secondary" 
+                      d="M32 106.67A10.67 10.67 0 0124.91 88l48-42.67a10.62 10.62 0 018.37-2.61l83 10.07 47-44.56A10.66 10.66 0 01226 23.74l-50.67 48a10.73 10.73 0 01-8.61 2.85L83.49 64.5 39.09 104a10.61 10.61 0 01-7.09 2.7z"></path><path class="fill-secondary" d="M226.67 53.34A8 8 0 01221 51l-37.32-37.34A8 8 0 01189.33 0h37.33a8 8 0 018 8v37.33a8 8 0 01-4.95 7.39 7.66 7.66 0 01-3.04.62z"></path><path class="fill-primary" d="M74.67 184v29.33h-64V184A13.33 13.33 0 0124 170.67h37.33A13.34 13.34 0 0174.67 184zM160 120v93.33H96V120a13.33 13.33 0 0113.33-13.33h37.33A13.33 13.33 0 01160 120zm85.33 21.34v72h-64v-72A13.32 13.32 0 01194.66 128H232a13.31 13.31 0 0113.33 13.34z"></path><path class="fill-secondary" d="M248 245.34H8a8 8 0 010-16h240a8 8 0 010 16z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">4x</h3>
+                      <p class="mb-0 svg-p">Revenue Growth</p>
+
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256 256" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/employees.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg deneme-svg2">
+
+                      <path class="fill-secondary" d="M72.11 86.51l-3.52-21 1.41-1.4-4.36-4.48a24.12 24.12 0 01-5.78-24.43c.11-.32.2-.53.32-.85l-1.4-.21-9-18.88a8 8 0 00-14.49 0l-8.88 19-19.69 3.07a8 8 0 00-6.29 5.44 7.94 7.94 0 001.92 8.11l14.51 14.83-3.42 21A8.07 8.07 0 0021.33 96a8.33 8.33 0 004-1l17.49-9.81 17.6 9.6a8.2 8.2 0 008.53-.43 8 8 0 003.21-7.89zm183.46-44.06a7.85 7.85 0 00-6.4-5.33l-19.73-3-9-18.88a8 8 0 00-14.5 0l-8.86 19-1.17.21c0 .11.11.21.11.32a23.76 23.76 0 01-5.44 24.32L185.81 64l1.71 1.71-3.41 21A8.07 8.07 0 00192 96a8.33 8.33 0 004-1l17.49-9.81 17.6 9.6a8.2 8.2 0 008.53-.43 8.06 8.06 0 003.2-7.89l-3.52-21 14.51-14.92a8.09 8.09 0 001.81-8.13z"></path><path class="fill-primary" d="M100.18 106.67a8 8 0 01-7.91-9.25l4.61-28.8L77 48.37a8 8 0 014.46-13.51l27.09-4.22 12.11-26a8 8 0 017.2-4.64 8 8 0 017.23 4.58l12.29 25.9 27.12 4.05A8 8 0 01179.09 48l-19.78 20.38 4.8 28.77a8 8 0 01-11.74 8.34l-24.19-13.25-24.12 13.42a7.94 7.94 0 01-3.88 1z"></path><circle class="fill-secondary" cx="42.67" cy="160" r="21.33"></circle><path class="fill-secondary" d="M71.15 196.27A44.71 44.71 0 0053.34 232v2.67H8a8.06 8.06 0 01-8-8v-5.33A29.32 29.32 0 0129.33 192H56a29.13 29.13 0 0115.15 4.27z"></path><circle class="fill-secondary" cx="213.33" cy="160" r="21.33"></circle><path class="fill-secondary" d="M256 221.33v5.33a8.07 8.07 0 01-8 8h-45.33V232a44.69 44.69 0 00-17.81-35.73A29.07 29.07 0 01200 192h26.67A29.32 29.32 0 01256 221.33z"></path><circle class="fill-primary" cx="128" cy="154.67" r="32"></circle><path class="fill-primary" d="M157.33 202.67H98.66A29.35 29.35 0 0069.33 232v16a8 8 0 008 8h101.33a8 8 0 008-8v-16a29.35 29.35 0 00-29.33-29.33z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">99.7%</h3>
+                      <p class="mb-0">Customer Satisfaction</p>
+                    </div>
+                   
+                  </div>
+                 
+                </div>
+              
+              </div>
+             
+            </div>
+           
+          </div>
+    
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid mb-18">
+          <div class="row conta-row">
+            <div class="item1 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item2 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item3 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item4 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+          <div class="row text-center">
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+              <h2 class="wrapper-slider">Case Studies</h2>
+              <h3 class="display-4 mb-9 me-lg-n5 wrapper-slider-h3">Check out some of our awesome projects with creative ideas and great design.</h3>
+            </div>
+          </div>
+
+          
+          <div class="home-slider owl-carousel owl-theme">
+            <div class="home-slider-item">
+                <img src="img/b4.jpg" alt="" class="radius-text hover-effect">
+                <p>Ligula tristique quis risus</p>
+                <i class="bi bi-calendar"></i>
+                <span>14 Apr 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Coding</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b5.jpg" alt="" class="radius-text hover-effect">
+                <p>Nullam id dolar elit id nibh</p>
+                <i class="bi bi-calendar"></i>
+                <span>29 Mar 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Workspace</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b6.jpg" alt="" class="radius-text hover-effect">
+                <p>Ultricies fusce porta elit</p>
+                <i class="bi bi-calendar"></i>
+                <span>26 Feb 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Meeting</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b7.jpg" alt="" class="radius-text hover-effect">
+                <p>Morbi leo risus porta eget</p>
+                <i class="bi bi-calendar"></i>
+                <span>7 Jan 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Business Tips</span>
+            </div>
+        </div>
+
+
+        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+          <div class="col-lg-6">
+            <div class="row gx-md-5 gy-5">
+              <div class="col-md-6">
+                <figure class="rounded Products-img1">
+                  <img src="img/g12.jpg" srcset="img/g12.jpg 2x" alt="">
+                </figure>
+              </div>
+              
+              <div class="col-md-6 align-self-end">
+                <figure class="rounded Products-img2">
+                  <img src="img/g13.jpg" srcset="img/g13.jpg 2x" alt=""></figure>
+              </div>
+           
+              <div class="col-12">
+                <figure class="rounded mx-md-5 Products-img3">
+                  <img src="img/g11.jpg" srcset="img/g11.jpg 2x" alt="">
+                </figure>
+              </div>
+         
+            </div>
+        
+          </div>
+          <div class="col-lg-6">
+            <h2 class="Products-h2">Who Are We?</h2>
+            <h3 class="mb-4 Products-h3">Company that believes in the power of creative strategy.</h3>
+            <p class="mb-6 Products-p">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed.</p>
+            <div class="row gy-3 gx-xl-8">
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li>
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+                    </span>
+                    <span>Aenean eu leo quam ornare curabitur blandit tempus.</span>
+                  </li>
+                  <li class="mt-3">
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+                    </span>
+                    <span>Nullam quis risus eget urna mollis ornare donec elit.</span></li>
+                </ul>
+              </div>
+              
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li>
+                    <span>
+                       <i class="bi bi-check-circle-fill Products-i"></i>
+                      </span>
+                      <span>Etiam porta sem malesuada magna mollis euismod.</span>
+                    </li>
+                  <li class="mt-3">
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+
+                      </i></span>
+                      <span>Fermentum massa vivamus faucibus amet euismod.</span>
+                    </li>
+                </ul>
+              </div>
+            
+            </div>
+           
+          </div>
+        
+        </div>
+        
+     
+
+<div class="row order-row">
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">1</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Vision</h4>
+        <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">2</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Mission</h4>
+        <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">3</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Values</h4>
+        <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="row Contact-row">
+    <div class="col-lg-6">
+      <div class="contact-img">
+        <img class="w-auto img-fluid" src="img/3d3.png" srcset="img/3d3.png 2x" alt="">
+      </div>
+    </div>
+
+  <div class="col-lg-5 offset-lg-1">
+    <div class="contact-text">
+      <h2 class="contact-h2">
+        CONTACT US
+      </h2>
+      <h3 class="contact-h3">
+        Got any questions? Don't hesitate to get in touch.
+      </h3>
+    </div>
+  
+    <div class="d-flex flex-row">
+
+      <div>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256 255.84" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/pin.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4 contact-sv" 
+        style="width: 1.5rem; height: 1.5rem;">
+        <path
+
+        class="fill-secondary" 
+        d="M10.67 255.84a10.68 10.68 0 01-7.54-18.23l86.08-86a10.67 10.67 0 1115.08 15.1l-86.08 86a10.61 10.61 0 01-7.54 3.13z">
+
+      </path>
+      <path 
+      class="fill-primary" 
+      d="M250.54 80.72L175.12 5.29a19.12 19.12 0 00-26.4 0L138.3 15.71a27.18 27.18 0 00-6.61 27.93A11.25 11.25 0 01129 55.21L98.38 85.79a13.3 13.3 0 01-9.38 3.9H76.46a29.11 29.11 0 00-20.73 8.59l-5.06 5.06a18.66 18.66 0 000 26.4l75.42 75.42a18.64 18.64 0 0026.4 0l5.06-5.07a29.12 29.12 0 008.59-20.73v-12.5a13.43 13.43 0 013.91-9.42l30.57-30.58a11.24 11.24 0 0111.57-2.74 27.14 27.14 0 0027.92-6.6l10.42-10.42a18.65 18.65 0 000-26.38z">
+
+        </path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row">
+      <div>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256.01 256" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/rotary.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4 contact-svg" 
+        style="width: 1.5rem; height: 1.5rem;">
+        <path class="fill-secondary" 
+        d="M128 106.67a128.15 128.15 0 00-128 128A21.36 21.36 0 0021.34 256h213.32A21.36 21.36 0 00256 234.67c0-70.57-57.42-128-128-128zM128 224a42.67 42.67 0 1142.67-42.67A42.71 42.71 0 01128 224z"></path><path class="fill-primary" d="M33.45 117.34a22.89 22.89 0 01-12.56-3.69 50.7 50.7 0 01-6.61-5.12A43.84 43.84 0 01.74 68.3C5.45 43.31 33.27 27.06 53.8 17A169.32 169.32 0 01128 0c34.77 0 69.86 10.62 96.26 29.14 11.95 8.4 26.22 20.11 30.4 36.41a44 44 0 01-12.93 43 49.9 49.9 0 01-6.49 5 23.84 23.84 0 01-26.87-.76L171.1 86.18c-8.32-5.94-11.64-16.42-8.08-25.52.19-.53.41-1 .64-1.56a113 113 0 00-71.33 0l.67 1.54c3.57 9.1.22 19.6-8.08 25.52l-37.3 26.61a24.15 24.15 0 01-14.14 4.57z"></path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+    <div class="d-flex flex-row">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256 202.66" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/emails.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;">
+        <path class="fill-primary" d="M192 0H21.33A21.36 21.36 0 000 21.33v96a21.36 21.36 0 0021.33 21.33H192a21.36 21.36 0 0021.33-21.33v-96A21.36 21.36 0 00192 0zm0 48l-73.6 37.12A25.12 25.12 0 01106.67 88a24.39 24.39 0 01-11.84-3L21.34 48V30.08l80.85 40.75a9.64 9.64 0 008.85.11l81-40.86z"></path><path class="fill-secondary" d="M234.67 64v53.33A42.72 42.72 0 01192 160H42.67v21.33A21.36 21.36 0 0064 202.66h170.67A21.36 21.36 0 00256 181.33v-96A21.36 21.36 0 00234.67 64z"></path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+  </div>
+</div>
+      </div> 
+    </section>
+
+    <footer>
+      <div class="container-card">
+        <div class="card image-wrapperr bg-full bg-image bg-overlay bg-overlay-light-500 mb-14" 
+             data-image-src="img/bg22.png" 
+             style="background-image: url('img/bg22.png');">
+          <div class="card-body py-14 px-0">
+            <div class="container">
+              <div class="row textt-center">
+                <div class="col-xl-11 col-xxl-9 mx-auto">
+                  <h2 class="footer-h2">Join Our Community</h2>
+                  <h3 class="mb-7 px-lg-17">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
+                </div>
+              </div>
+              <div class="footer-btn text-center"> <!-- Adjusted class to center align -->
+                <a href="#" class="btn btn-lg">Get Started</a> <!-- Removed unnecessary <span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pb-13 pb-md-15 footer-bottom">
+        <div class=" row gy-6 gy-lg-0">
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <img class="mb-4" src="img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="">
+          <p>© 2024 Sandbox. <br>
+            All rights reserved.</p>
+          <nav class="nav social ">
+            <a href="#"><i class="bi bi-twitter footer-icon2"></i></a>
+            <a href="#"><i class="bi bi-facebook footer-icon2"></i></a>
+            <a href="#"><i class="bi bi-dribbble footer-icon1"></i></a>
+            <a href="#"><i class="bi bi-instagram footer-icon1"></i></a>
+            <a href="#"><i class="bi bi-youtube footer-icon3"></i></a>
+          </nav>
+          
+        </div>
+       
+      </div>
+     
+
+
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title mb-3">Get in Touch</h4>
+          <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+          <a href="mailto:#" class="link-body">info@email.com</a><br> 00 (123) 456 78 90
+        </div>
+     
+      </div>
+      <!-- /column -->
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title mb-3">Learn More</h4>
+          <ul class="list-unstyled text-reset mb-0">
+            <li class="mb-3"><a href="#">About Us</a></li>
+            <li class="mb-3"><a href="#">Our Story</a></li>
+            <li class="mb-3"><a href="#">Projects</a></li>
+            <li class="mb-3"><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+       
+      </div>
+      
+      <div class="col-md-12 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title  mb-3">Our Newsletter</h4>
+          <p class="mb-5">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
+          <div class="newsletter-wrapper">
+            <div id="mc_embed_signup2">
+              <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" 
+              method="post" 
+              id="mc-embedded-subscribe-form2" 
+              name="mc-embedded-subscribe-form" 
+              class="validate " target="_blank" novalidate="">
+
+                <div id="mc_embed_signup_scroll2">
+                  <div class="mc-field-group input-group form-floating">
+
+                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+
+                    <label for="mce-EMAIL2">Email Address</label>
+
+                    <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary btn-gradient gradient-1 footerr-btn">
+                  </div>
+                  <div id="mce-responses2" class="clear">
+                    <div class="response" id="mce-error-response2" style="display:none"></div>
+                    <div class="response" id="mce-success-response2" style="display:none"></div>
+                  </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value="">
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </form>
+            </div>
+         
+          </div>
+         
+        </div>
+      
+      </div>
+   
+    </div>
+ 
+    </div>
+    </footer>
+      </div>
+
+       <div class="mobilhali">
+        <section class="header-navbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                  <a href="https://sandbox.elemisthemes.com/demo18.html">
+                      <img src="img/logo-dark.png" alt="">
+                  </a>
+              </div>
+              <div class="col-md-6">
+                  <ul class="navbar-nav section-navbar">
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Demos</a>
+
+
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Services</a></li>
+                          </ul>
+
+
+
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Services</a></li>
+                              <li><a class="dropdown-item" href="#">About</a></li>
+                              <li><a class="dropdown-item" href="#">Shop</a></li>
+                              <li><a class="dropdown-item" href="#">Contact</a></li>
+                              <li><a class="dropdown-item" href="#">Career</a></li>
+                              <li><a class="dropdown-item" href="#">Utility</a></li>
+                              <li><a class="dropdown-item" href="#">Pricing</a></li>
+                              <li><a class="dropdown-item" href="#">One Page</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                          <div class="dropdown-menu dropdown-lg">
+                              <div class="dropdown-lg-content content-wp">
+                                  <div>
+                                      <h6 class="dropdown-header">Project Pages</h6>
+                                      <ul class="list-unstyled">
+                                          <li><a class="dropdown-item" href="#">Projects I</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects II</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects III</a></li>
+                                          <li><a class="dropdown-item" href="#">Projects IV</a></li>
+                                      </ul>
+                                  </div>
+                               
+                                  <div>
+                                      <h6 class="dropdown-header">Single Projects</h6>
+                                      <ul class="list-unstyled">
+                                          <li><a class="dropdown-item" href="#">Single Project I</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project II</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project III</a></li>
+                                          <li><a class="dropdown-item" href="#">Single Project IV</a></li>
+                                      </ul>
+                                  </div>
+                             
+                              </div>
+                          
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown pe-2">
+                          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Blog without Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog with Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog with left Sidebar</a></li>
+                              <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item pe-2">
+                          <a class="nav-link" aria-current="page" href="#">Blocks</a>
+                      </li>
+                      <li class="nav-item pe-2">
+                          <a class="nav-link" aria-current="page" href="#">Documentation</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <ul class="navbar-nav flex-row align-items-center">
+                      <li class="nav-item">
+                          <nav class="nav social social-muted justify-content-end text-end customer-icon">
+                              <a href="#"><i class="bi bi-twitter custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-facebook custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-dribbble custom-icon"></i></a>
+                              <a href="#"><i class="bi bi-instagram custom-icon"></i></a>
+                          </nav>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+          
+          </div>
+  </section>
+
+  <section class="wrapper">
+      <div class="container deneme-container">
+          <div class="card image-wrappe bg-full bg-image bg-overlay mt-2 mb-5" data-image-src="img/bg22.png" style="background-image: url(&quot;img/bg22.png&quot;);">
+          <div class="row wrapper-about-deneme">
+              <div class="col-md-6">
+                  <div class="section-textt">
+                      <h1 class="section-textt-h1">Networking <span class="gradient"> solutions</span> for worldwide communication</h1>
+                      <p class="section-p">We're a company that focuses on establishing long-term relationships with customers.</p>
+                      <a href="#" class="btn btn-lg section-a">Explore Now</a>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="section-img img-fluid">
+                      <img src="img/3d6.png" alt="">
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="about section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-text">
+                    <h2>Our Services</h2>
+                    <p>The service we offer is specifically<br>designed to meet your needs.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row gy-8 mb-17">
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                        <i class="bi bi-display bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Software &amp; Integration</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                     <i class="bi bi-shield-fill-check bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Network Security</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-cloudy-fill bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Cloud Services</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-reception-3 bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Wireless Networking</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-gear bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">IT Solutions</h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="about-item-container">
+                    <div class="about-item">
+                      <i class="bi bi-database bil-i"></i>
+                    </div>
+                    <div class="about-bottom-text">
+                        <h3 class="fs-22 mb-1">Server Configuration </h3>
+                        <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     
+
+          <div class="row mb-15 mb-md-18 align-items-center about-bottom-denk">
+            <div class="col-lg-5 offset-lg-1">
+                <img class="w-auto img-fluid about-bottom-img" src="img/3d2.png" srcset="img/3d2.png" alt="">
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+              <h2 class="go-h2 mb-3">Have Perfect Control</h2>
+              <h3 class="go-pp mb-4">We bring solutions to make life easier for our customers.</h3>
+              <p class="mb-6 about-pp">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+              <div class="row gy-3">
+                <div class="col-xl-6">
+                  <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li>
+                      <span class="about-bottom-span">Aenean quam ornare. Curabitur blandit.</span>
+                    </li>
+                    <li class="mt-3">
+                      <span class="about-bottom-span">Nullam quis risus eget urna mollis ornare.</span>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="col-xl-6">
+                  <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li>
+                      <span class="about-bottom-span">Etiam porta euismod malesuada mollis.</span>
+                    </li>
+                    <li class="mt-3">
+                      <span class="about-bottom-span">Vivamus sagittis lacus vel augue rutrum.</span>
+                    </li>
+                  </ul>
+                </div>
+               
+              </div>
+             
+            </div>
+          </div>
+
+
+
+          <div class="row about-menu-wrapper">
+            <div class="col-md-6 about-menu-text">
+              <h2 class="mb-3 go-h2">WHAT MAKES US DIFFERENT?</h2>
+              <h3 class="mb-4 go-p">We make spending stress free so you have the perfect control.</h3>
+              <p class="mb-6 about-bottom-p">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non
+                 metus auctor fringilla. Morbi leo risus, porta ac consectetur ac,
+                 vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
+            </div>
+            <div class="col-md-6 about-menu-img">
+              <img class="img-fluid" src="img/about27.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="row about1-row">
+            <div class="col-md-6 about-menu-texter">
+              <p> 
+                <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Aenean eu leo quam. Pellentesque ornare.
+              </p>
+              <p>
+                 <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Nullam quis risus eget urna mollis ornare.
+              </p>
+              <p>
+                 <i class="bi bi-check-circle-fill about-menu-icon"></i>
+                Donec id elit non mi porta gravida at eget.
+              </p>
+            </div>
+          </div>
+    </div>
+  </section>
+
+
+    <section class="wrapper-menu">
+      <div class="container-card">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" 
+        data-image-src="img/bg22.png" 
+        style="background-image: url(&quot;img/bg22.png&quot;);">
+          <div class="card-body card-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 text-center text-md-start wrapper-menu-text2">
+                  <h3 class="display-4 wrapper-menu-h3">We are proud of our works</h3>
+                  <p class="lead wrapper-menu-p">We bring solutions to make life easier for our customers.</p>
+                </div>
+           
+                <div class="col-lg-8 mt-lg-2">
+
+                  <div class="row text-center">
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256.1 256.01" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/target.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg">
+
+                      <path class="fill-secondary" d="M178.66 79.37L166 .93 91.1a76.68 76.68 0 014.91 11.52 85.77 85.77 0 0114.93-1.28h1.39a93.65 93.65 0 00-9.5-21.97zM0 128a96.1 96.1 0 00109.65 95 82.93 82.93 0 01-5.65-15.42 67 67 0 01-8 .43A80 80 0 0196 48a79 79 0 0137 9.17l11.73-11.73A94.73 94.73 0 0096 32a96.14 96.14 0 00-96 96z"></path><path class="fill-secondary" d="M37.33 128A58.78 58.78 0 0096 186.68a47.26 47.26 0 005.44-.32A82.71 82.71 0 01103 170a37.32 37.32 0 01-7 .64 42.67 42.67 0 010-85.34 32.88 32.88 0 018 .84l12.91-12.91a57 57 0 00-20.91-4A58.81 58.81 0 0037.33 128z"></path><path class="fill-secondary" d="M96 106.68A21.33 21.33 0 10117.33 128 21.39 21.39 0 0096 106.68zm0 26.66a5.33 5.33 0 115.33-5.33 5.28 5.28 0 01-5.33 5.33z"></path><path class="fill-primary" d="M96.1 136a8 8 0 01-5.67-13.65L159.76 53a8 8 0 0111.31 11.31l-69.33 69.33A8 8 0 0196.1 136z"></path><path class="fill-primary" d="M194.77 64H168.1a8 8 0 01-8-8V29.34a8.08 8.08 0 012.33-5.67l21.33-21.33A8 8 0 01197.42 8v18.68h18.68a8 8 0 015.66 13.66l-21.33 21.33a8 8 0 01-5.66 2.33zm-8 53.34a69.34 69.34 0 1069.33 69.34 69.4 69.4 0 00-69.33-69.34zm29.87 56.11L182 210.78a8 8 0 01-11.09.64l-18.67-16a8 8 0 1110.41-12.15l12.84 11 29.44-31.69a8 8 0 0111.74 10.88z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">1000+</h3>
+                      <p class="mb-0 svg-p1">Completed Projects</p>
+                    </div>
+                 
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256 245.34" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/bar-chart.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg deneme-svg">
+
+                      <path class="fill-secondary" 
+                      d="M32 106.67A10.67 10.67 0 0124.91 88l48-42.67a10.62 10.62 0 018.37-2.61l83 10.07 47-44.56A10.66 10.66 0 01226 23.74l-50.67 48a10.73 10.73 0 01-8.61 2.85L83.49 64.5 39.09 104a10.61 10.61 0 01-7.09 2.7z"></path><path class="fill-secondary" d="M226.67 53.34A8 8 0 01221 51l-37.32-37.34A8 8 0 01189.33 0h37.33a8 8 0 018 8v37.33a8 8 0 01-4.95 7.39 7.66 7.66 0 01-3.04.62z"></path><path class="fill-primary" d="M74.67 184v29.33h-64V184A13.33 13.33 0 0124 170.67h37.33A13.34 13.34 0 0174.67 184zM160 120v93.33H96V120a13.33 13.33 0 0113.33-13.33h37.33A13.33 13.33 0 01160 120zm85.33 21.34v72h-64v-72A13.32 13.32 0 01194.66 128H232a13.31 13.31 0 0113.33 13.34z"></path><path class="fill-secondary" d="M248 245.34H8a8 8 0 010-16h240a8 8 0 010 16z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">4x</h3>
+                      <p class="mb-0 svg-p">Revenue Growth</p>
+
+                    </div>
+                
+                    <div class="col-md-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 256 256" 
+                      data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/employees.svg" 
+                      class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-4 wrapper-menu-svg deneme-svg2">
+
+                      <path class="fill-secondary" d="M72.11 86.51l-3.52-21 1.41-1.4-4.36-4.48a24.12 24.12 0 01-5.78-24.43c.11-.32.2-.53.32-.85l-1.4-.21-9-18.88a8 8 0 00-14.49 0l-8.88 19-19.69 3.07a8 8 0 00-6.29 5.44 7.94 7.94 0 001.92 8.11l14.51 14.83-3.42 21A8.07 8.07 0 0021.33 96a8.33 8.33 0 004-1l17.49-9.81 17.6 9.6a8.2 8.2 0 008.53-.43 8 8 0 003.21-7.89zm183.46-44.06a7.85 7.85 0 00-6.4-5.33l-19.73-3-9-18.88a8 8 0 00-14.5 0l-8.86 19-1.17.21c0 .11.11.21.11.32a23.76 23.76 0 01-5.44 24.32L185.81 64l1.71 1.71-3.41 21A8.07 8.07 0 00192 96a8.33 8.33 0 004-1l17.49-9.81 17.6 9.6a8.2 8.2 0 008.53-.43 8.06 8.06 0 003.2-7.89l-3.52-21 14.51-14.92a8.09 8.09 0 001.81-8.13z"></path><path class="fill-primary" d="M100.18 106.67a8 8 0 01-7.91-9.25l4.61-28.8L77 48.37a8 8 0 014.46-13.51l27.09-4.22 12.11-26a8 8 0 017.2-4.64 8 8 0 017.23 4.58l12.29 25.9 27.12 4.05A8 8 0 01179.09 48l-19.78 20.38 4.8 28.77a8 8 0 01-11.74 8.34l-24.19-13.25-24.12 13.42a7.94 7.94 0 01-3.88 1z"></path><circle class="fill-secondary" cx="42.67" cy="160" r="21.33"></circle><path class="fill-secondary" d="M71.15 196.27A44.71 44.71 0 0053.34 232v2.67H8a8.06 8.06 0 01-8-8v-5.33A29.32 29.32 0 0129.33 192H56a29.13 29.13 0 0115.15 4.27z"></path><circle class="fill-secondary" cx="213.33" cy="160" r="21.33"></circle><path class="fill-secondary" d="M256 221.33v5.33a8.07 8.07 0 01-8 8h-45.33V232a44.69 44.69 0 00-17.81-35.73A29.07 29.07 0 01200 192h26.67A29.32 29.32 0 01256 221.33z"></path><circle class="fill-primary" cx="128" cy="154.67" r="32"></circle><path class="fill-primary" d="M157.33 202.67H98.66A29.35 29.35 0 0069.33 232v16a8 8 0 008 8h101.33a8 8 0 008-8v-16a29.35 29.35 0 00-29.33-29.33z"></path></svg>
+                      <h3 class="counter" style="visibility: visible;">99.7%</h3>
+                      <p class="mb-0">Customer Satisfaction</p>
+                    </div>
+                   
+                  </div>
+                 
+                </div>
+              
+              </div>
+             
+            </div>
+           
+          </div>
+    
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid mb-18">
+          <div class="row conta-row">
+            <div class="item1 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item2 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item3 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item4 col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body card-wrapper-bottom">
+                  <blockquote class="border-0 mb-0">
+                    <p class="menu-wrapper-p">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+          <div class="row text-center">
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+              <h2 class="wrapper-slider">Case Studies</h2>
+              <h3 class="display-4 mb-9 me-lg-n5 wrapper-slider-h3">Check out some of our awesome projects with creative ideas and great design.</h3>
+            </div>
+          </div>
+
+          <div class="home-slider owl-carousel owl-theme">
+            <div class="home-slider-item">
+                <img src="img/b4.jpg" alt="" class="radius-text hover-effect">
+                <p>Ligula tristique quis risus</p>
+                <i class="bi bi-calendar"></i>
+                <span>14 Apr 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Coding</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b5.jpg" alt="" class="radius-text hover-effect">
+                <p>Nullam id dolar elit id nibh</p>
+                <i class="bi bi-calendar"></i>
+                <span>29 Mar 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Workspace</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b6.jpg" alt="" class="radius-text hover-effect">
+                <p>Ultricies fusce porta elit</p>
+                <i class="bi bi-calendar"></i>
+                <span>26 Feb 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Meeting</span>
+            </div>
+            <div class="home-slider-item">
+                <img src="img/b7.jpg" alt="" class="radius-text hover-effect">
+                <p>Morbi leo risus porta eget</p>
+                <i class="bi bi-calendar"></i>
+                <span>7 Jan 2022</span>
+                <i class="bi bi-dot"></i>
+                <i class="bi bi-file-earmark"></i>
+                <span>Business Tips</span>
+            </div>
+        </div>
+
+
+        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+          <div class="col-lg-6">
+            <div class="row gx-md-5 gy-5">
+              <div class="col-md-6">
+                <figure class="rounded Products-img1">
+                  <img src="img/g12.jpg" srcset="img/g12.jpg 2x" alt="">
+                </figure>
+              </div>
+              
+              <div class="col-md-6 align-self-end">
+                <figure class="rounded Products-img2">
+                  <img src="img/g13.jpg" srcset="img/g13.jpg 2x" alt=""></figure>
+              </div>
+           
+              <div class="col-12">
+                <figure class="rounded mx-md-5 Products-img3">
+                  <img src="img/g11.jpg" srcset="img/g11.jpg 2x" alt="">
+                </figure>
+              </div>
+         
+            </div>
+        
+          </div>
+          <div class="col-lg-6">
+            <h2 class="Products-h2">Who Are We?</h2>
+            <h3 class="mb-4 Products-h3">Company that believes in the power of creative strategy.</h3>
+            <p class="mb-6 Products-p">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed.</p>
+            <div class="row gy-3 gx-xl-8">
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li>
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+                    </span>
+                    <span>Aenean eu leo quam ornare curabitur blandit tempus.</span>
+                  </li>
+                  <li class="mt-3">
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+                    </span>
+                    <span>Nullam quis risus eget urna mollis ornare donec elit.</span></li>
+                </ul>
+              </div>
+              
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li>
+                    <span>
+                       <i class="bi bi-check-circle-fill Products-i"></i>
+                      </span>
+                      <span>Etiam porta sem malesuada magna mollis euismod.</span>
+                    </li>
+                  <li class="mt-3">
+                    <span>
+                      <i class="bi bi-check-circle-fill Products-i"></i>
+
+                      </i></span>
+                      <span>Fermentum massa vivamus faucibus amet euismod.</span>
+                    </li>
+                </ul>
+              </div>
+            
+            </div>
+           
+          </div>
+        
+        </div>
+        
+     
+
+<div class="row order-row">
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">1</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Vision</h4>
+        <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">2</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Mission</h4>
+        <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="d-flex flex-row">
+      <div>
+        <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> 
+          <span class="number fs-18">3</span> 
+        </div>
+      </div>
+      <div>
+        <h4>Our Values</h4>
+        <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="row Contact-row">
+    <div class="col-lg-6">
+      <div class="contact-img">
+        <img class="w-auto img-fluid" src="img/3d3.png" srcset="img/3d3.png 2x" alt="">
+      </div>
+    </div>
+
+  <div class="col-lg-5 offset-lg-1">
+    <div class="contact-text">
+      <h2 class="contact-h2">
+        CONTACT US
+      </h2>
+      <h3 class="contact-h3">
+        Got any questions? Don't hesitate to get in touch.
+      </h3>
+    </div>
+  
+    <div class="d-flex flex-row">
+
+      <div>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256 255.84" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/pin.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4 contact-sv" 
+        style="width: 1.5rem; height: 1.5rem;">
+        <path
+
+        class="fill-secondary" 
+        d="M10.67 255.84a10.68 10.68 0 01-7.54-18.23l86.08-86a10.67 10.67 0 1115.08 15.1l-86.08 86a10.61 10.61 0 01-7.54 3.13z">
+
+      </path>
+      <path 
+      class="fill-primary" 
+      d="M250.54 80.72L175.12 5.29a19.12 19.12 0 00-26.4 0L138.3 15.71a27.18 27.18 0 00-6.61 27.93A11.25 11.25 0 01129 55.21L98.38 85.79a13.3 13.3 0 01-9.38 3.9H76.46a29.11 29.11 0 00-20.73 8.59l-5.06 5.06a18.66 18.66 0 000 26.4l75.42 75.42a18.64 18.64 0 0026.4 0l5.06-5.07a29.12 29.12 0 008.59-20.73v-12.5a13.43 13.43 0 013.91-9.42l30.57-30.58a11.24 11.24 0 0111.57-2.74 27.14 27.14 0 0027.92-6.6l10.42-10.42a18.65 18.65 0 000-26.38z">
+
+        </path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row">
+      <div>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256.01 256" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/rotary.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4 contact-svg" 
+        style="width: 1.5rem; height: 1.5rem;">
+        <path class="fill-secondary" 
+        d="M128 106.67a128.15 128.15 0 00-128 128A21.36 21.36 0 0021.34 256h213.32A21.36 21.36 0 00256 234.67c0-70.57-57.42-128-128-128zM128 224a42.67 42.67 0 1142.67-42.67A42.71 42.71 0 01128 224z"></path><path class="fill-primary" d="M33.45 117.34a22.89 22.89 0 01-12.56-3.69 50.7 50.7 0 01-6.61-5.12A43.84 43.84 0 01.74 68.3C5.45 43.31 33.27 27.06 53.8 17A169.32 169.32 0 01128 0c34.77 0 69.86 10.62 96.26 29.14 11.95 8.4 26.22 20.11 30.4 36.41a44 44 0 01-12.93 43 49.9 49.9 0 01-6.49 5 23.84 23.84 0 01-26.87-.76L171.1 86.18c-8.32-5.94-11.64-16.42-8.08-25.52.19-.53.41-1 .64-1.56a113 113 0 00-71.33 0l.67 1.54c3.57 9.1.22 19.6-8.08 25.52l-37.3 26.61a24.15 24.15 0 01-14.14 4.57z"></path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+    <div class="d-flex flex-row">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 256 202.66" 
+        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/emails.svg" 
+        class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;">
+        <path class="fill-primary" d="M192 0H21.33A21.36 21.36 0 000 21.33v96a21.36 21.36 0 0021.33 21.33H192a21.36 21.36 0 0021.33-21.33v-96A21.36 21.36 0 00192 0zm0 48l-73.6 37.12A25.12 25.12 0 01106.67 88a24.39 24.39 0 01-11.84-3L21.34 48V30.08l80.85 40.75a9.64 9.64 0 008.85.11l81-40.86z"></path><path class="fill-secondary" d="M234.67 64v53.33A42.72 42.72 0 01192 160H42.67v21.33A21.36 21.36 0 0064 202.66h170.67A21.36 21.36 0 00256 181.33v-96A21.36 21.36 0 00234.67 64z"></path></svg>
+      </div>
+
+      <div>
+        <h5 class="mb-0">Address</h5>
+        <address>Moonshine St. 14/05 Light City,London</address>
+      </div>
+    </div>
+  </div>
+</div>
+      </div> 
+    </section>
+
+    <footer>
+      <div class="container-card">
+        <div class="card image-wrapperr bg-full bg-image bg-overlay bg-overlay-light-500 mb-14" 
+             data-image-src="img/bg22.png" 
+             style="background-image: url('img/bg22.png');">
+          <div class="card-body py-14 px-0">
+            <div class="container">
+              <div class="row textt-center">
+                <div class="col-xl-11 col-xxl-9 mx-auto">
+                  <h2 class="footer-h2">Join Our Community</h2>
+                  <h3 class="mb-7 px-lg-17">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
+                </div>
+              </div>
+              <div class="footer-btn text-center">
+                <a href="#" class="btn btn-lg">Get Started</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pb-13 pb-md-15 footer-bottom">
+        <div class=" row gy-6 gy-lg-0">
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <img class="mb-4" src="img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="">
+          <p>© 2024 Sandbox. <br>
+            All rights reserved.</p>
+          <nav class="nav social ">
+            <a href="#"><i class="bi bi-twitter footer-icon2"></i></a>
+            <a href="#"><i class="bi bi-facebook footer-icon2"></i></a>
+            <a href="#"><i class="bi bi-dribbble footer-icon1"></i></a>
+            <a href="#"><i class="bi bi-instagram footer-icon1"></i></a>
+            <a href="#"><i class="bi bi-youtube footer-icon3"></i></a>
+          </nav>
+          
+        </div>
+       
+      </div>
+     
+
+
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title mb-3">Get in Touch</h4>
+          <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+          <a href="mailto:#" class="link-body">info@email.com</a><br> 00 (123) 456 78 90
+        </div>
+     
+      </div>
+     
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title mb-3">Learn More</h4>
+          <ul class="list-unstyled text-reset mb-0">
+            <li class="mb-3"><a href="#">About Us</a></li>
+            <li class="mb-3"><a href="#">Our Story</a></li>
+            <li class="mb-3"><a href="#">Projects</a></li>
+            <li class="mb-3"><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+       
+      </div>
+      
+      <div class="col-md-12 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title  mb-3">Our Newsletter</h4>
+          <p class="mb-5">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
+          <div class="newsletter-wrapper">
+            <div id="mc_embed_signup2">
+              <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" 
+              method="post" 
+              id="mc-embedded-subscribe-form2" 
+              name="mc-embedded-subscribe-form" 
+              class="validate " target="_blank" novalidate="">
+
+                <div id="mc_embed_signup_scroll2">
+                  <div class="mc-field-group input-group form-floating">
+
+                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+
+                    <label for="mce-EMAIL2">Email Address</label>
+
+                    <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary btn-gradient gradient-1 footerr-btn">
+                  </div>
+                  <div id="mce-responses2" class="clear">
+                    <div class="response" id="mce-error-response2" style="display:none"></div>
+                    <div class="response" id="mce-success-response2" style="display:none"></div>
+                  </div>
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value="">
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </form>
+            </div>
+         
+          </div>
+         
+        </div>
+      
+      </div>
+   
+    </div>
+ 
+    </div>
+    </footer>
+      </div> 
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
